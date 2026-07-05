@@ -137,6 +137,7 @@ abhishek = {
 
 ---
 
+
 <div align="center">
-  <i>"I don't just build models — I build things people can actually use."</i>
+  <i>"From React components to RAG pipelines — still just connecting the dots!."</i>
 </div>
