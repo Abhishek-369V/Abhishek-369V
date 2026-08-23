@@ -7,11 +7,10 @@
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=Abhishek-369V&label=Profile+Views&color=4F8EF7&style=flat" alt="profile views" />
-&nbsp;
+&nbsp;&nbsp;
 <a href="https://linkedin.com/in/madanala-abhishek-varma">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin" />
-</a> 
-&nbsp;
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Open%20to-Data%20Analyst%20%7C%20ML%20%7C%20GenAI-brightgreen?style=flat" />
 
 </div>
@@ -123,13 +122,13 @@ abhishek = {
 
 <p>
   <a href="https://www.linkedin.com/in/madanala-abhishek-varma/">
-    <img src="https://img.shields.io/badge/LinkedIn-Abhishek%20Varma-0A66C2?style=for-the-badge&logo=linkedin" />
-  </a>
+    <img src="https://img.shields.io/badge/LinkedIn-Abhishek%20Varma-0A66C2?style=for-the-badge&logo=linkedin" /></a>
   &nbsp;
   <a href="mailto:abhishekmadanala@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
+
 
 ---
 
