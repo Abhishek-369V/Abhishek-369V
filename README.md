@@ -1,137 +1,431 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=4F8EF7&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Abhishek+%F0%9F%91%8B;ML+Engineer+%7C+GenAI+Developer;Building+AI+that+solves+real+problems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1200&color=4F8EF7&center=true&vCenter=true&width=850&lines=Hi%2C+I'm+Abhishek+%F0%9F%91%8B;AI+Engineer+(Agentic+AI+%2B+Gen+AI);Building+AI+that+solves+real+problems" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Abhishek-369V&label=Profile+Views&color=4F8EF7&style=flat" alt="profile views" />
-&nbsp;&nbsp;
-<a href="https://linkedin.com/in/madanala-abhishek-varma">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Open%20to-Data%20Analyst%20%7C%20ML%20%7C%20GenAI-brightgreen?style=flat" />
+<p>
+  <a href="https://www.linkedin.com/in/madanala-abhishek-varma/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:abhishekmadanala@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Open%20to-AI%20Engineering%20%7C%20GenAI%20%7C%20ML-brightgreen?style=flat" />
+</p>
+
+<b>Building AI systems from data → retrieval → reasoning → APIs → deployment.</b>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About
 
-I'm **Madanala Abhishek Varma**, a B.Tech CSE graduate (May 2026) from Andhra Pradesh, India — currently a **Data Analyst Intern at Bluestock Fintech**, building end-to-end data pipelines on real financial data, while continuing to build in **AI/ML and GenAI**.
+I'm **Madanala Abhishek Varma**, a **B.Tech CSE graduate focused on AI engineering**, with hands-on experience across machine learning, data analytics, GenAI and agentic systems.
 
-I started in **frontend development** (React) before moving into ML and now GenAI — I like understanding a system end-to-end rather than just one layer of it.
+I started with frontend development, moved into machine learning and data pipelines, and gradually shifted toward building **AI applications that combine retrieval, stateful workflows, APIs, evaluation and deployment**.
 
-```python
-abhishek = {
-    "currently_doing"    : "Data Analyst Intern @ Bluestock Fintech",
-    "currently_learning" : ["Agentic AI (LangGraph, CrewAI, AutoGen)", "RAG evaluation"],
-    "building"           : "AI apps and data pipelines with real-world utility",
-    "open_to"            : ["Data Analyst", "Junior ML Engineer", "GenAI Developer"],
-    "location"           : "Andhra Pradesh, India 🇮🇳 (Remote-friendly)"
-}
+I enjoy working across the full system rather than only the model layer.
+
+<table>
+<tr>
+<td align="center" width="16%"><b>DATA</b></td>
+<td align="center" width="16%"><b>ML</b></td>
+<td align="center" width="16%"><b>RAG</b></td>
+<td align="center" width="16%"><b>AGENTS</b></td>
+<td align="center" width="16%"><b>APIs</b></td>
+<td align="center" width="20%"><b>DEPLOYMENT</b></td>
+</tr>
+<tr>
+<td align="center">Pipelines</td>
+<td align="center">Models</td>
+<td align="center">Retrieval</td>
+<td align="center">Workflows</td>
+<td align="center">Backend</td>
+<td align="center">Cloud</td>
+</tr>
+</table>
+
+---
+
+## What I Build
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Agentic AI
+
+Stateful AI workflows that coordinate retrieval, tools, reasoning and structured outputs.
+
+`LangGraph` `LangChain` `RAG`
+
+</td>
+<td width="50%" valign="top">
+
+### Multimodal AI
+
+Applications that combine video, speech, text and visual information.
+
+`Whisper` `AWS Rekognition` `LLMs`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### ML Systems
+
+End-to-end machine learning workflows from preprocessing to evaluation and inference.
+
+`Scikit-learn` `XGBoost` `TensorFlow`
+
+</td>
+<td width="50%" valign="top">
+
+### Data Systems
+
+Data pipelines and analytical applications built around Python, SQL and databases.
+
+`Pandas` `SQL` `SQLite` `Power BI`
+
+</td>
+</tr>
+</table>
+
+---
+
+# Featured Projects
+
+## 01 · Brand Guardian AI
+
+### Multimodal Video Compliance Auditor
+
+An agentic system designed to audit video content against retrieved advertising and compliance policies.
+
+```text
+                    VIDEO
+                      │
+             ┌────────┴────────┐
+             ▼                 ▼
+          SPEECH         ON-SCREEN TEXT
+             │                 │
+          Whisper        AWS Rekognition
+             │                 │
+             └────────┬────────┘
+                      ▼
+               POLICY RETRIEVAL
+              FAISS + Embeddings
+                      │
+                      ▼
+              LANGGRAPH WORKFLOW
+                      │
+                      ▼
+                   GROQ LLM
+                      │
+                      ▼
+             PASS / FAIL + FINDINGS
+                      │
+                      ▼
+               LANGSMITH TRACE
 ```
 
----
+**Stack**
 
-## 🛠️ Tech Stack
+`LangGraph` `RAG` `Whisper` `AWS Rekognition` `RAGAS` <br>
+`FAISS` `Sentence Transformers` `Groq` `FastAPI` `Docker` `LangSmith`
 
-### Data / ML
-<p>
-  <img src="https://skillicons.dev/icons?i=python" />
-  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white" />
-  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=flat&logoColor=white" />
-  <img src="https://img.shields.io/badge/NLP-8B5CF6?style=flat&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" />
-</p>
+**Highlights**
 
-### GenAI Stack
-<p>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG%20Pipelines-0EA5E9?style=flat" />
-  <img src="https://img.shields.io/badge/Vector%20DBs-FF6B35?style=flat" />
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-8B5CF6?style=flat" />
-</p>
+- Multimodal speech and on-screen text extraction
+- Retrieval-grounded compliance reasoning
+- Stateful LangGraph orchestration
+- Structured findings and severity classification
+- Automated testing and RAG evaluation
+- LangSmith tracing and performance analysis
 
-### Databases & Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,sqlite,git,github,vscode,jupyter" />
-</p>
+**[Repository](https://github.com/Abhishek-369V/brand-guardian-ai)** · **[Demo](https://youtu.be/1xkJx8qgp2o)**
 
 ---
 
-## 🚀 Featured Projects
+## 02 · Nifty 100 Financial Intelligence
 
-### 1. Mutual Fund Analytics Platform — Bluestock Fintech
-> *End-to-end ETL + analytics pipeline on real financial data*
+### End-to-End Financial Analytics Platform
 
-- Built a full pipeline on **87K+ real AMFI India NAV records**, 40 fund schemes
-- SQLite star schema, EDA with 15+ charts, risk-adjusted metrics — **Sharpe, Sortino, Alpha, Beta, VaR**
-- Shipped a **4-page interactive Power BI dashboard** with drill-through and cross-filtering
+A financial intelligence platform covering **92 Nifty 100 companies**, combining ETL, financial analytics, screening, peer benchmarking, ML-based analysis and reporting.
 
-🔗 [View Project](https://github.com/Abhishek-369V/MF_Analytics_Platform) | [Live Demo](https://app.powerbi.com/view?r=eyJrIjoiYTMzMWEwNjctNjcyMy00MWY1LThiNzAtN2I3NmM0NzMzZGJkIiwidCI6ImMxMTBiOWNmLTFmOGMtNDVhMS1iMmJlLWI0ZGNkNGU0NjE1MSJ9)
+```text
+              12 SOURCE DATASETS
+                      │
+                      ▼
+               ETL + VALIDATION
+                      │
+                      ▼
+                SQLITE DATA LAYER
+                      │
+                 ┌────┼─────┬──────────┐
+                 ▼    ▼     ▼          ▼
+                KPI  SCREEN  PEERS    ML/NLP
+                 │    │     │          │
+                 └────┴─────┴──────────┘
+                            │
+                            ▼
+                     FASTAPI + STREAMLIT
+                            │
+                            ▼
+                      FINANCIAL REPORTS
+```
 
----
+**Stack**
 
-### 2. Message Intelligence Pipeline (L1 + L2)
-> *Rule-based classification, extraction, priority scoring, and a semantic assistant — over 1,080 messages*
+`Python` `Pandas` `SQL` `SQLite` `FastAPI` <br>
+`financial-analysis` `Streamlit` `Scikit-learn` `KMeans` 
 
-- Classifies messages into 6 categories, extracts tasks/events, detects and masks sensitive info
-- **L2** adds a multi-signal priority engine, related-message grouping, and a TF-IDF semantic QA assistant with privacy-aware routing
-- Every decision is explainable — no black-box classification, full reasoning traced per output
+**Highlights**
 
-🔗 [View Project](https://github.com/Abhishek-369V/KaStack_Assignment) | [Live Demo](https://message-intelligence-pipeline.streamlit.app/)
+- 12-source ETL pipeline with data-quality validation
+- 30+ financial metrics
+- 6 preset screeners
+- 11 peer groups for benchmarking
+- KMeans-based analytical clustering
+- 19-endpoint FastAPI backend
+- 8-screen Streamlit dashboard
+- 172 automated tests
+- Automated company, sector and portfolio reports
 
----
-
-### 3. AI-Powered Medicine Recommendation System
-
-- Predicts disease from **134 symptom-severity combinations** across **41 disease categories**
-- **Random Forest + Keras**, trained on 4,920+ samples, **99% accuracy**
-- Interactive Streamlit web app, live and deployed
-
-🔗 [View Project](https://github.com/Abhishek-369V/Medicine_Recommendation_System) | [Live Demo](https://medicine-recommendation-system-mav.streamlit.app/)
-
----
-
-### 4. Universal AI Utility App
-
-- Multi-task GenAI app — Summarize, Translate, Explain, Generate Email, Rewrite
-- Dual LLM backend: Google Gemini (zero-cost) + OpenAI (BYOK), with seamless model switching
-- Live on Streamlit
-
-🔗 [View Project](https://github.com/Abhishek-369V/Universal_AI_Utility_App) | [Live Demo](https://universal-ai-utility.streamlit.app/)
-
----
-
-## 🌱 What I'm Currently Doing
-
-- 💼 Data Analyst Intern @ **Bluestock Fintech** — real fintech data pipelines
-- 📚 Learning **Agentic AI** — LangGraph, CrewAI, AutoGen
-- 📝 Applying for **Data Analyst / Junior ML / GenAI** roles
-- 💡 Practicing **SQL + Python (LeetCode)** for interviews
+**[Repository](https://github.com/Abhishek-369V/N100-financial-intelligence-platform)** · **[Live](https://nifty100-finintel.streamlit.app/)**
 
 ---
 
-## 📫 Let's Connect
+## 03 · ArXiv Agentic RAG
 
-<p>
-  <a href="https://www.linkedin.com/in/madanala-abhishek-varma/">
-    <img src="https://img.shields.io/badge/LinkedIn-Abhishek%20Varma-0A66C2?style=for-the-badge&logo=linkedin" /></a>
-  &nbsp;
-  <a href="mailto:abhishekmadanala@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+### Research Assistant with Retrieval Evaluation
 
+An agentic research system designed to search and reason over **ArXiv research papers** using Agentic RAG, with **Exa Web Search as a fallback when local retrieval is insufficient**.
+
+```text
+                  USER QUERY
+                      │
+                      ▼
+                QUERY ANALYSIS
+                      │
+                      ▼
+             LOCAL ARXIV RETRIEVAL
+                      │
+                      ▼
+             RETRIEVAL EVALUATION
+                      │
+          ┌───────────┴───────────┐
+          │                       │
+     SUFFICIENT              INSUFFICIENT
+          │                       │
+          │                       ▼
+          │                EXA WEB SEARCH
+          │                       │
+          └───────────┬───────────┘
+                      ▼
+                CONTEXT ASSEMBLY
+                      │
+                      ▼
+                LLM REASONING
+                      │
+                      ▼
+              GROUNDED RESPONSE
+```
+
+**Stack**
+
+`LangGraph` `LangChain` `ChromaDB` `OpenAI Embeddings`  <br>
+`Retrieval Evaluation` `Exa-api` `LLMs` `OpenAI API`
+
+**Key Engineering Work**
+
+- Retrieves relevant research content from the local ArXiv knowledge base
+- Evaluates retrieved context before generating an answer
+- Uses **Exa Web Search as a fallback** when local retrieval is insufficient
+- Combines retrieved evidence before LLM-based reasoning
+- Uses an agentic workflow to decide when additional search is required
+- Focuses on retrieval quality and grounded responses rather than relying only on the LLM
+
+**[Repository](https://github.com/Abhishek-369V/arxiv-agentic-rag)** · **[Demo](https://www.loom.com/share/29e548f5cad94e5795b211e235ce07ba)**
 
 ---
+
+## 04 · Mutual Fund Analytics Platform
+
+### Financial Data Engineering + Risk Analytics
+
+An end-to-end mutual fund analytics platform developed during my Data Analyst internship, processing 87K+ AMFI India records across 40 fund schemes via data ingestion, ETL, database modeling, exploratory analysis, performance analytics, risk analysis and Power BI reporting.
+
+  ```text
+              RAW FINANCIAL DATA
+                     │
+                     ▼
+             DATA INGESTION
+                     │
+                     ▼
+           CLEANING + TRANSFORMATION
+                     │
+                     ▼
+            SQLITE STAR SCHEMA
+                     │
+                ┌────┼─────────┐
+                ▼    ▼         ▼
+               EDA  PERFORMANCE  RISK
+                    ANALYTICS    ANALYTICS
+                │       │          │
+                └───────┴──────────┘
+                        │
+                        ▼
+                POWER BI DASHBOARD
+```
+
+**Stack**
+
+`Python` `Pandas` `Numpy` `SQL` `SQLite` <br>
+`Data visualization` `plotly` `Power BI`
+
+**Analytics**
+
+`CAGR` `Sharpe` `Sortino` `Alpha` `Beta`  
+`Maximum Drawdown` `VaR` `CVaR` `HHI`
+
+**Key Engineering Work**
+
+- Built ETL workflows for mutual fund datasets
+- Cleaned and transformed NAV, transaction, AUM and SIP data
+- Designed a SQLite star schema for analytical workloads
+- Implemented performance and risk-adjusted financial metrics
+- Developed analytical SQL queries for fund and investor analysis
+- Built a risk-based fund recommender
+- Created a 4-page interactive Power BI dashboard with drill-through and slicers
+
+**[Repository](https://github.com/Abhishek-369V/MF_Analytics_Platform) · [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTMzMWEwNjctNjcyMy00MWY1LThiNzAtN2I3NmM0NzMzZGJkIiwidCI6ImMxMTBiOWNmLTFmOGMtNDVhMS1iMmJlLWI0ZGNkNGU0NjE1MSJ9)**
+
+---
+
+# Technical Stack
+
+### AI / GenAI
+
+`LangGraph` `LangChain` `CrewAI` `Autogen` `RAG` `FAISS`  <br>
+`Sentence Transformers` `OpenAI` `Gemini` `Groq` `Hugging Face`
+
+### Machine Learning
+
+`Python` `Scikit-learn` `XGBoost` `Random Forest` <br>
+`TensorFlow` `NLP` `Classification` `Regression` `KMeans`
+
+### Data & Analytics
+
+`Pandas` `NumPy` `SQL` `SQLite` `PostgreSQL`  <br>
+`Matplotlib` `Seaborn` `ETL` `Power BI` `Streamlit`
+
+### Full-Stack Python & Cloud
+
+`FastAPI` `REST APIs` `Docker` `Git` `GitHub` <br>
+`AWS` `Azure` `Streamlit` `React` `JavaScript` `Tailwind CSS`
+
+---
+
+# My Journey: From Data to AI Systems
+
+```text
+React
+  │
+  ▼
+Machine Learning
+  │
+  ▼
+NLP + Data Analytics
+  │
+  ▼
+Data Pipelines + SQL
+  │
+  ▼
+GenAI + RAG
+  │
+  ▼
+Agentic AI
+  │
+  ▼
+End-to-End AI Systems
+```
+
+The common thread:
+
+> **Understand the problem → build the pipeline → connect the components → evaluate the system → deploy it.**
+
+---
+
+# Currently Focused On
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### AI
+
+- Agentic AI
+- GenAI applications
+- Advanced RAG
+- Retrieval evaluation
+- Multimodal AI
+
+</td>
+<td width="50%" valign="top">
+
+### Engineering
+
+- FastAPI
+- AI backend systems
+- Data pipelines
+- Docker
+- Cloud deployment
+- Observability
+
+</td>
+</tr>
+</table>
+
+---
+
+# Experience
+
+| Role | Focus |
+|---|---|
+| **Data Analyst Intern · Bluestock Fintech** | Financial analytics · ETL · SQL · Risk metrics · Power BI |
+| **Frontend Developer Intern · Coreline Solutions** | React · Tailwind CSS · AI API integration · Voice interfaces |
+| **AI/ML Intern · Edunet Foundation** | NLP · TF-IDF · Random Forest · Gradient Boosting |
+
+---
+
+# Connect
+
+I'm interested in opportunities involving:
+
+**AI Engineering · Agentic AI · GenAI · Machine Learning · Data/ML Systems**
 
 <div align="center">
-  <i>From React components to RAG pipelines to ETL dashboards — still just connecting the dots.</i>
+
+<a href="https://www.linkedin.com/in/madanala-abhishek-varma/">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+&nbsp;
+<a href="mailto:abhishekmadanala@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+&nbsp;
+<a href="https://github.com/Abhishek-369V?tab=repositories">
+<img src="https://img.shields.io/badge/GitHub-Explore-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+
+<br/>
+<br/>
+
+<b>DATA → RETRIEVAL → REASONING → SYSTEMS → DEPLOYMENT</b>
+
+<br/>
+
+<i>Building things, breaking things, understanding why, and building them better.</i>
+
 </div>
